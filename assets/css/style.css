@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+    color: #333;
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+  }
+
+  footer{
+    color: #333;
+    background: #666666;
+  }
+
+  .background {
+    background-image: url("/Users/marcfelizardo/Documents/FullStackFlexCourse/bootcampActivities/Homework1/Basic-Portfolio/assets/images/memphis-mini.png");
+}
+
+  .logo{
+    color: #ffffff;
+    background: #4aaaa5;
+    float: left;
+    width: 20em;
+    text-align: center;
+  }
+
+  .content{
+    width: 960px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    color: #333;
+    margin: 0 auto;
+}
+
+.bioImage{
+    float: left;
+}
+.accent{
+    clear: both;
+}
