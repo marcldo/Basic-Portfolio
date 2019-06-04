@@ -16,8 +16,8 @@ header {
   }
 
   .background {
-    background-image: url("/Users/marcfelizardo/Documents/FullStackFlexCourse/bootcampActivities/Homework1/Basic-Portfolio/assets/images/memphis-mini.png");
-}
+    background-image: url("../../assets/images/memphis-mini.png");
+  }
 
   .logo{
     color: #ffffff;
@@ -28,6 +28,7 @@ header {
   }
 
   .content{
+    clear: both;
     width: 960px;
     background: #ffffff;
     border: 1px solid #dddddd;
