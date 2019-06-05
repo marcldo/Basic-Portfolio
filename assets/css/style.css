@@ -7,8 +7,40 @@ header {
     margin-bottom: 20px;
     color: #333;
     background: #ffffff;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    height: 5em;
+    margin: 0 auto;
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    vertical-align: middle;
+  }
+
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #4aaaa5;
+  }
+
+  li a:hover {
+    color: #111;
+  }
+
+br{
+  border: 1px solid #cccccc;
+}
 
   footer{
     color: #333;
@@ -25,15 +57,22 @@ header {
     float: left;
     width: 20em;
     text-align: center;
+    height: 5em;
+    vertical-align: middle;
   }
 
   .content{
     clear: both;
-    width: 960px;
     background: #ffffff;
     border: 1px solid #dddddd;
     color: #333;
-    margin: 0 auto;
+    margin-top: 100px; 
+}
+
+
+.center{
+  width: 960px;
+  margin: 0 auto;
 }
 
 .bioImage{
