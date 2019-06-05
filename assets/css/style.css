@@ -45,9 +45,17 @@ br{
   footer{
     color: #333;
     background: #666666;
+    height: 3em;
+  }
+
+  footer p{
+    color: #aaaaaa;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .background {
+    overflow: hidden;
     background-image: url("../../assets/images/memphis-mini.png");
   }
 
@@ -66,7 +74,8 @@ br{
     background: #ffffff;
     border: 1px solid #dddddd;
     color: #333;
-    margin-top: 100px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
 }
 
 
@@ -80,4 +89,6 @@ br{
 }
 .accent{
     clear: both;
+    background-color: #4aaaa5;
+    height: 10px;
 }
