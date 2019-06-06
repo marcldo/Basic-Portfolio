@@ -40,7 +40,7 @@ header {
     color: #111;
   }
 
- ul li a:nth-of-type(2)::after {
+ li a:nth-of-type(2)::after {
     content: "|";
   }
 
@@ -63,6 +63,7 @@ br{
     background: #666666;
     height: 3em;
     border-top: 8px solid #4aaaa5;
+    padding-top: 40%;
   }
 
   footer p{
