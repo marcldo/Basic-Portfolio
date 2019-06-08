@@ -36,25 +36,7 @@ header {
     float: right;
   }
 
-  footer ul {
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0 auto;
-  }
 
-  footer li {
-
-  }
-
-  footer a {
-    display: block;
-    color: #aaaaaa;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    float: center;
-  }
   
   nav li {
     line-height: 3.2em;
@@ -75,23 +57,28 @@ header {
   }
 
   li a:active {
-    color: #4aaaa5;
+    color: #ff5b5b;
   }
+
+
 
   section h1{
-    color: #4aaaa5;
+    color: #ff5b5b;
   }
 
   
-  br{
-    border: 1px solid #cccccc;
+  /* footer */
+
+  .accent {
+    background: linear-gradient(to right, #ed9c2a 0%,#ff5b5b 71%);
+    height: 8px;
   }
-  
+
   footer{
     color: #333;
     background: #666666;
     height: 5em;
-    border-top: 8px solid #4aaaa5;
+    /* border-top: 8px solid #ff5b5b; */
   }
   
   footer p{
@@ -99,6 +86,27 @@ header {
     margin: 0 auto;
     text-align: center;
   }
+
+  footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  footer li {
+
+  }
+
+  footer a {
+    display: block;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    float: center;
+  }
+
   
   .background {
     overflow: hidden;
@@ -109,7 +117,7 @@ header {
   
   .logo{
     color: #ffffff;
-    background: #4aaaa5;
+    background: linear-gradient(to bottom, #ed9c2a 0%,#ff5b5b 71%);
     float: left;
     width: 20em;
     text-align: center;
@@ -118,8 +126,6 @@ header {
   }
   
   .content-title{
-  
-      color: #4aaaa5;
       border-bottom: 2px solid #cccccc; 
       margin-bottom: 20px;
     }
@@ -149,4 +155,23 @@ header {
     padding-bottom: 30px;
 }
 
+form {
+  padding-bottom: 50px ;
+}
+
+input, textarea {
+  width: 100%;
+  border: solid 1px #cccccc;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  padding-bottom: 200px;
+}
+
+.btn{
+  width: 150px;
+  background: linear-gradient(to bottom, #ed9c2a 0%,#ff5b5b 71%);
+}
 
