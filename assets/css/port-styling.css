@@ -18,7 +18,9 @@
   .port-title {
     color: #ffffff;
     position: absolute;
-    background-color: #4aaaa5;
+    background-color: #666666;
+    border:solid 1px #888888;
+    opacity: 10px;
     text-align: center;
     margin: 0px;
     padding: 0px;
