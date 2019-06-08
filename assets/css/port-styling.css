@@ -1,0 +1,29 @@
+/* portfolio styling */
+
+.portfolio-container {
+    display: block;
+  }
+  
+  .port-widget:hover{
+   box-shadow: 10px 10px 20px #888888;
+    }
+
+  .port-widget{
+  position: relative;
+  float: left;
+  padding: 30px;
+  overflow: hidden;
+  }
+  
+  .port-title {
+    color: #ffffff;
+    position: absolute;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    width: 300px;
+    top: 210px;
+  }
+

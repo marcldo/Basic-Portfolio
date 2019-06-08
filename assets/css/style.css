@@ -1,3 +1,9 @@
+/* home page styling */
+
+*{
+  box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -18,9 +24,10 @@ header {
     border-bottom: 2px solid #cccccc;
     height: 5em;
     margin: 0 auto;
+    overflow: hidden;
   }
   
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,13 +35,33 @@ header {
     background-color: #ffffff;
     float: right;
   }
+
+  footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  footer li {
+
+  }
+
+  footer a {
+    display: block;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    float: center;
+  }
   
-  li {
+  nav li {
     line-height: 3.2em;
     float: left;
   }
   
-  li a {
+  nav li a {
     display: block;
     color: #aaaaaa;
     text-align: center;
@@ -55,36 +82,31 @@ header {
     color: #4aaaa5;
   }
 
-  section div{
-    
-    color: #4aaaa5;
-    border-bottom: 2px solid #cccccc; 
-    margin-bottom: 20px;
+  
+  br{
+    border: 1px solid #cccccc;
   }
-
-br{
-  border: 1px solid #cccccc;
-}
-
+  
   footer{
     color: #333;
     background: #666666;
-    height: 3em;
+    height: 5em;
     border-top: 8px solid #4aaaa5;
   }
-
+  
   footer p{
     color: #aaaaaa;
     margin: 0 auto;
     text-align: center;
   }
-
+  
   .background {
     overflow: hidden;
     background-image: url("../../assets/images/memphis-mini.png");
     padding-bottom: 10%;
   }
-
+  
+  
   .logo{
     color: #ffffff;
     background: #4aaaa5;
@@ -94,6 +116,13 @@ br{
     height: 5em;
     vertical-align: middle;
   }
+  
+  .content-title{
+  
+      color: #4aaaa5;
+      border-bottom: 2px solid #cccccc; 
+      margin-bottom: 20px;
+    }
 
   .content{
     clear: both;
@@ -103,6 +132,7 @@ br{
     margin-top: 50px; 
     margin-bottom: 50px;
     padding: 30px;
+    overflow: hidden;
 }
 
 
@@ -111,8 +141,12 @@ br{
   margin: 0 auto;
 }
 
+
+/* about me styling */
 .bioImage{
     float: left;
     padding-right: 30px;
     padding-bottom: 30px;
 }
+
+
