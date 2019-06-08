@@ -85,16 +85,22 @@ header {
     color: #aaaaaa;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
   }
 
   footer ul {
     list-style-type: none;
     overflow: hidden;
     margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
   }
 
   footer li {
-
+    display: inline-block;
+  }
+  footer div{
+    width: 100%;
   }
 
   footer a {
@@ -174,4 +180,5 @@ textarea {
   width: 150px;
   background: linear-gradient(to bottom, #ed9c2a 0%,#ff5b5b 71%);
 }
+
 
