@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Homework 1 basic porfolio
+First Project: In this project I used HTML and CSS to create a static portfolio website.
