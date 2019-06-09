@@ -25,6 +25,10 @@ header {
     height: 5em;
     margin: 0 auto;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
   }
   
   /* nav styling */
@@ -60,9 +64,6 @@ header {
   li a:active {
     color: #3F5EFB;
   }
-
-
-
 
   
   /* footer */
@@ -140,8 +141,9 @@ header {
     background: #ffffff;
     border: 1px solid #dddddd;
     color: #333;
-    margin-top: 50px; 
+    margin-top: 150px; 
     margin-bottom: 50px;
+    
     padding: 30px;
     overflow: hidden;
 }
